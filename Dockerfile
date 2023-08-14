@@ -1,6 +1,6 @@
 From openjdk:11-jdk
 
-WROKDIR /app
+WORKDIR /app
 
 COPY build/libs/*.jar app.jar
 
